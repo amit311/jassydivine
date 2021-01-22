@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #6C63FF;
+    --dark-gray: #6B7280;
+    --off-white:#A7F3D0;
+    --dark-aqua:aqua;
+    
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px  ;
+}
+
+/** container **/
+.container {
+    padding: 1rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem 0rem;
+    font-weight: bold;
+}
+
+/** links **/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.primary-link {
+    background-color: rgb(202, 61, 26);
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+hr {
+    margin: 2rem 0rem;
+
+}
+
+/** lists **/
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: #6C63FF;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    background-color:#6C63FF;
+}
+
+.navigation .link-active { 
+    font-weight: bold;
+}
+.hero{
+    padding: 0.5rem;
+    
+}
+.hero p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.hero .hero-img{
+    max-width: 450px;
+    min-height: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding: 0.5rem;
+    text-align: center;
+}
+/** sections **/
+.section{
+    padding: 2rem;
+    text-align: center;
+}
+.section h1{
+    text-align: center;
+}
+.ow {
+    background-color:#6C63FF;
+    text-align: center;
+
+}
+.ow p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/** footers  **/
+.footer{
+    background-color: whitesmoke;
+    padding: 2rem;
+    text-align: center;
+    color: black
+    border-top-right-radius: 1rem  ;
+}
+.footer .link{
+    color:black;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.footer .list-item-inline{
+    font-size: 1rem;
+    margin: auto;
+    font-weight: bold;
+}
+.blog{
+    text-align: center;
+    padding: 5rem;
+}
+ .blogs{
+    background-color:  #A7F3D0;
+}
+.git{
+    max-width: 25px;
+  
+}
